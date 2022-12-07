@@ -109,9 +109,9 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("ɢʀᴏᴜᴩ", url="https://t.me/+WLcUmDKa_n5jOTM1"),
-            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/MS_LinkZzz"),
-            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/New_Movies_Hd_M")
+            InlineKeyboardButton("ɢʀᴏᴜᴩ", url="https://t.me/+riua0Y3YXHo4NjY1"),
+            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Srilinks4k"),
+            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+AjDKccCK69pmMzk1")
         ]
     )
 
@@ -125,7 +125,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🤔 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 🤔", url="https://t.me/MS_LinkZzz/3"),]
+    [InlineKeyboardButton("🤔 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 🤔", url="https://t.me/Srilinks4k/47"),]
 )
     if n_offset == 0:
         btn.append(
@@ -444,13 +444,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('ɢʀᴏᴜᴩ', url='https://t.me/+WLcUmDKa_n5jOTM1'),
-            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/MS_LinkZzz')
+            InlineKeyboardButton('ɢʀᴏᴜᴩ', url='https://t.me/+riua0Y3YXHo4NjY1'),
+            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/Srilinks4k')
         ], [
             InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ], [
-            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/MS_LinkZzz')
+            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/Srilinks4k')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -477,7 +477,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/MS_LinkZzz'),
+            InlineKeyboardButton('ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/Srilinks4k'),
             InlineKeyboardButton('ꜱᴏᴜʀᴄᴇ', callback_data='source')
         ],[
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
@@ -703,14 +703,14 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("ɢʀᴏᴜᴩ", url="https://t.me/+3UF-fQmJItg0Nzk1"),
-            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/MS_LinkZzz"),
-            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/New_Movies_Hd_M")
+            InlineKeyboardButton("ɢʀᴏᴜᴩ", url="https://t.me/+riua0Y3YXHo4NjY1"),
+            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Srilinks4k"),
+            InlineKeyboardButton("ꜰɪʟᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+AjDKccCK69pmMzk1")
         ]
     )
     
     btn.append(
-    [InlineKeyboardButton("🤔 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 🤔", url="https://t.me/MS_LinkZzz/3"),]
+    [InlineKeyboardButton("🤔 𝐇𝐎𝐖 𝐓𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 🤔", url="https://t.me/Srilinks4k/47"),]
 )
 
     if offset != "":
@@ -760,7 +760,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Mᴏᴠɪᴇ Nᴀᴍᴇ 🎞️ : <code>{search}</code>\n\n🔗 Join : @MS_LinkZzz 🔗"
+        cap = f"Mᴏᴠɪᴇ Nᴀᴍᴇ 🎞️ : <code>{search}</code>\n\n🔗 Join : @Srilinks4k 🔗"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
