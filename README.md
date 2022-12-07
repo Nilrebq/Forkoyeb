@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/974f52a0f64c8bb0b0c0c.jpg" alt="Eva Maria Logo">
+  <img src="https://telegra.ph/file/c08d0fb4166cf9af180d5.jpg" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
-  <b>@MS_LinkZzz Auto Filter Bot</b>
+  <b>@SRILINKS4K Auto Filter Bot</b>
 </h1>
 
 
@@ -47,7 +47,7 @@ You can deploy this bot anywhere.
 
 <i>**[Watch Deploying Tutorial...](https://youtu.be/gNCd8xuNgM8)**</i>
 
-<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/itsyogieu/TechMagazine-AutoFilterBot/deploy-buttons&branch=master&name=tmafbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+<a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/Nilrebq/ForKoyeb/deploy-buttons&branch=master&name=tmafbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
 
 
 
@@ -55,7 +55,7 @@ You can deploy this bot anywhere.
 <p>
 
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsyogieu/TechMagazine-AutoFilterBot)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nilrebq/ForKoyeb)
 
 </p>
 </details>
@@ -63,7 +63,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/itsyogieu/TechMagazine-AutoFilterBot
+git clone https://github.com/Nilrebq/ForKoyeb
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
