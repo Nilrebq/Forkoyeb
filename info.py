@@ -42,12 +42,12 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'sources_cods')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "ɴᴀᴍᴇ : <code>{file_name}</code> \n\nꜱɪᴢᴇ :<code> {file_size}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [MS_LinkZzz](https://t.me/MS_LinkZzz)</b> \n\nɴᴏᴛᴇ: ᴀꜰᴛᴇʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ꜱᴀᴠᴇ ᴛʜᴇ ꜰɪʟᴇ ᴛᴏ ɢᴀʟʟᴇʀʏ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ, ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ɪꜰ ᴜ ᴅᴏɴ'ᴛ ᴡᴀɴᴛ ᴛʜɪꜱ ꜰɪʟᴇ ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ.")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "ɴᴀᴍᴇ : <code>{file_name}</code> \n\nꜱɪᴢᴇ :<code> {file_size}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [MS_LinkZzz](https://t.me/MS_LinkZzz)</b> \n\nɴᴏᴛᴇ: ᴀꜰᴛᴇʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ꜱᴀᴠᴇ ᴛʜᴇ ꜰɪʟᴇ ᴛᴏ ɢᴀʟʟᴇʀʏ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ, ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ɪꜰ ᴜ ᴅᴏɴ'ᴛ ᴡᴀɴᴛ ᴛʜɪꜱ ꜰɪʟᴇ ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ.")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🔗 Join : @MS_LinkZzz 🔗")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION","<code>{file_name}</code> <b>Share and support us ❤️ 〽️ Powered by @Srilinks4k.")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", ,"<code>{file_name}</code> <b>Share and support us ❤️ 〽️ Powered by @Srilinks4k.")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🔗 〽️ Powered by @Srilinks4k")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
-MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
+MAX_LIST_ELM = environ.get("MAX_LIST_ELM", 6)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
@@ -78,11 +78,11 @@ if SELF_DELETE == "True":
     SELF_DELETE = True
 
     # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ"
-DOWNLOAD_TEXT_URL = "https://t.me/MS_LinkZzz/3"
+DOWNLOAD_TEXT_NAME = "🤔 HOW TO DOWNLOAD 🤔"
+DOWNLOAD_TEXT_URL = "https://t.me/Srilinks4k/47"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "ᴄʜᴀɴɴᴇʟ"
-CAPTION_BUTTON_URL = "https://t.me/MS_LinkZzz"
+CAPTION_BUTTON_URL = "https://t.me/Srilinks4k"
 
    # Auto Delete For Bot Sending Files #
